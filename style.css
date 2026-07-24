@@ -1,0 +1,161 @@
+/* STYLE SECTIONING TAGS */
+body {
+ background-color: lightyellow; 
+}
+
+/* STYLE TEXT */
+
+h1 {
+  color: darkblue;
+}
+
+p {
+  color: darkblue;
+}
+li{
+  display: block;
+}
+
+/* Grad pic */
+#grad-pic{
+  display: block;
+  margin-top: 30px;
+  margin-left: auto; 
+  margin-right: auto;
+  max-width: 15%;
+  border-radius: 30px;
+  border: 3px solid darkgoldenrod;
+}
+
+/* Keeps text fully accessible to assistive technologies while hiding it from the screen layout */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Award pic*/
+#cert-wrapper {
+  display: inline-block;
+  border: 4px solid darkgoldenrod;
+  overflow: hidden;
+  margin: 20px 0;
+}
+
+.award-pic {
+  display: block;
+  max-width: 360px;     
+  height: auto;
+  margin-right: -70px; 
+  margin-left: -25px;
+  margin-bottom:-5px;
+}
+
+
+.bio-section p {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+
+.bullet-section {
+  padding-left: 20px;  
+  margin-bottom: 25px;
+}
+
+.bullet-section p {
+  display: list-item;
+  list-style-type: disc;
+  margin-bottom: 10px; 
+  line-height: 1.5;
+}
+
+
+/* STYLE NAV BAR */
+/* gives it the 3D effect along w/ the main nav bar container*/
+ul{
+  list-style-type: none;
+  background-color: navy;
+  overflow: none;
+  padding: 1em;
+}
+
+/* THICKNESS OF THE ENTIRE NAV BAR */
+.separator {
+  border: none;
+  border-top: 2px solid #ccc;
+  margin: 30px auto;
+  width: 50%;
+}
+/* 1. Main Navbar Container */
+.main-navbar {
+  background-color: #0b1d5a;    
+  /* Deep blue background */
+  border-bottom: 8px solid #c59b27; 
+  /* THICKER SEPARATOR: Increased to 8px antique gold */
+  padding: 20px 0;  
+  /* Increased top and bottom padding for breathing room */
+  width: 100%;
+}
+
+/* 2. Navigation List Layout */
+.nav-links {
+  list-style: none;       
+  /* Removes bullet points */
+  margin: 0;
+  padding: 0;
+  display: flex;        
+  /* Aligns items side-by-side */
+  justify-content: center; 
+  /* Centers the links horizontally on the page */
+  gap: 50px;             
+  /* Adds generous spacing between the links */
+}
+
+/* 3. The Links Style */
+.nav-links a {
+  color: lightyellow;        
+  text-decoration: none;    
+  /* Removes the default underline */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, serif;
+  font-size: 1.2rem;     
+  /* Slightly larger font to balance the thicker line 
+  
+  1rem (Root EM): Always equals the font size of the <html> element (usually 16px). It never changes, no matter where you use it on the page.1em (Element EM): Equals the font size of the parent container it sits inside. If the parent changes size, the em size scales with it. 
+  1. Use rem for general layout and typographyUse rem for font sizes, page margins, and section padding. It keeps your spacing predictable, clean, and perfectly accessible across your entire portfolio.2. Use em for small details that belong togetherUse em when a property needs to scale perfectly with the text it is attached to. A great example is adding an icon or padding inside a button
+  
+  */
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  transition: color 0.3s ease;
+/* 0.3s- time ease- timing function 
+  other options: linear, ease-in and ease out */
+}
+
+.nav-links a:hover {
+  color: #c59b27;       
+  /* Changes text to gold when hovering */
+}
+
+/* BETWEEN GRAD PIC AND ABOUT ME */
+
+.section-separator {
+  border: none;                 
+  /* Removes the default thin gray border */
+  background-color: #c59b27;   
+  /* Fills the line with the exact antique gold from your photo frame */
+  height: 4px;             
+  /* THICKER LINE: Sets a strong, premium thickness */
+  width: 70%;      
+  /* Keeps it centered and elegant instead of stretching 100% wide */
+  margin: 40px auto;      
+  /* Adds generous spacing above and below the line, and centers it */
+  border-radius: 4px;        
+  /* Softens the edges of the thick bar slightly */
+}
