@@ -94,7 +94,7 @@ ul{
   width: 50%;
 }
 /* 1. Main Navbar Container */
-.main-navbar {
+.topnavbar {
   background-color: #0b1d5a;    
   /* Deep blue background */
   border-bottom: 8px solid #c59b27; 
@@ -105,7 +105,7 @@ ul{
 }
 
 /* 2. Navigation List Layout */
-.nav-links {
+.nav {
   list-style: none;       
   /* Removes bullet points */
   margin: 0;
@@ -115,20 +115,26 @@ ul{
   justify-content: center; 
   /* Centers the links horizontally on the page */
   gap: 50px;             
-  /* Adds generous spacing between the links */
+  /* Adds spacing between the links */
 }
 
 /* 3. The Links Style */
-.nav-links a {
+.nav a {
   color: lightyellow;        
   text-decoration: none;    
   /* Removes the default underline */
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, serif;
-  font-size: 1.2rem;     
+  max-inline-size: 1.2rem;     
   /* Slightly larger font to balance the thicker line 
   
-  1rem (Root EM): Always equals the font size of the <html> element (usually 16px). It never changes, no matter where you use it on the page.1em (Element EM): Equals the font size of the parent container it sits inside. If the parent changes size, the em size scales with it. 
-  1. Use rem for general layout and typographyUse rem for font sizes, page margins, and section padding. It keeps your spacing predictable, clean, and perfectly accessible across your entire portfolio.2. Use em for small details that belong togetherUse em when a property needs to scale perfectly with the text it is attached to. A great example is adding an icon or padding inside a button
+  1rem (Root EM): Always equals the font size of the <html> element (usually 16px).
+   It never changes, no matter where you use it on the page.1em (Element EM): 
+   Equals the font size of the parent container it sits inside. 
+   If the parent changes size, the em size scales with it. 
+  1. Use rem for general layout and typographyUse rem for font sizes, page margins, and section padding. 
+  It keeps your spacing predictable, clean, and perfectly accessible across your entire portfolio.
+  2. Use em for small details that belong togetherUse em when a property needs to scale perfectly with the text it is attached to.
+   A great example is adding an icon or padding inside a button.
   
   */
   font-weight: 500;
@@ -138,7 +144,7 @@ ul{
   other options: linear, ease-in and ease out */
 }
 
-.nav-links a:hover {
+.nav a:hover {
   color: #c59b27;       
   /* Changes text to gold when hovering */
 }
