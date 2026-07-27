@@ -7,6 +7,8 @@ Forgot to make a log so, now I'm doing it
 
 Start: July 25? 2026
 
+Learning Git and Github
+
 7/26/26 Making the website look old timey
 
 7/26-27/ 26Changing website to be a bit more than the one in GWC
