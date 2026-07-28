@@ -28,6 +28,6 @@ May take a long time to finish. Simple first then add on's such as buttons-
 - Inspiration quotes
 - Lessons learned
 - Git hub link, insta handle, orgs links, scholarship info
-- People met + testimonials
+- People met + testimonials(add box to make a message)
 - GWC pathways advice
 - Hack club advisors advice
