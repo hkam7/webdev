@@ -153,7 +153,7 @@ ul{
 
 /* BETWEEN GRAD PIC AND ABOUT ME */
 
-.section-separator {
+.separator {
   border: none;                 
   /* Removes the default thin gray border */
   background-color: #bcb299;   
