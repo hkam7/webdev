@@ -152,9 +152,9 @@ ul{
   /* Fills the line with the exact antique gold from your photo frame */
   height: 4px;             
   /* THICKER LINE: Sets a strong, premium thickness */
-  width: 70%;      
+  width: 100%;      
   /* Keeps it centered and elegant instead of stretching 100% wide */
-  margin: 40px auto;      
+  margin: 30px auto;      
   /* Adds generous spacing above and below the line, and centers it */
   border-radius: 4px;        
   /* Softens the edges of the thick bar slightly */
