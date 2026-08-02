@@ -104,7 +104,7 @@ ul{
 }
 
 /* 2. Navigation List Layout */
-.navlist {
+#navbarlinks {
   list-style: none;       
   /* Removes bullet points */
   margin: 0;
@@ -118,8 +118,8 @@ ul{
 }
 
 /* 3. The Links Style */
-.nav a {
-  color: lightyellow;        
+#navbarlinks a {
+  color: goldenrod;        
   text-decoration: none;    
   /* Removes the default underline */
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, serif;
@@ -138,12 +138,12 @@ ul{
   */
   font-weight: 500;
   letter-spacing: 0.5px;
-  transition: color 0.3s ease;
+  transition: color 0.3s ease-in-out;
 /* 0.3s- time ease- timing function 
   other options: linear, ease-in and ease out */
 }
 
-.nav a:hover {
+#nav a:hover {
   color: #c59b27;       
   /* Changes text to gold when hovering */
 }
