@@ -30,7 +30,7 @@ li{
 }
 
 /* Keeps text fully accessible to assistive technologies while hiding it from the screen layout */
-.visually-hidden {
+.hidden-for-impaired {
   position: absolute;
   width: 1px;
   height: 1px;
