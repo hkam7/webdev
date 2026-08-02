@@ -31,3 +31,10 @@ May take a long time to finish. Simple first then add on's such as buttons-
 - People met + testimonials(add box to make a message)
 - GWC pathways advice
 - Hack club advisors advice
+##### 8/1/26
+I kept getting "cannot GET /nav%20bar%links/volunteer%20work"
+and not volunteer work but art, index, and portfolio but I didn't add miscellaneous.
+
+asked gemini for help 
+
+apparently the links are case sensitive so I'm changing that
