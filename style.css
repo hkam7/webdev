@@ -134,7 +134,6 @@ ul{
   It keeps your spacing predictable, clean, and perfectly accessible across your entire portfolio.
   2. Use em for small details that belong togetherUse em when a property needs to scale perfectly with the text it is attached to.
    A great example is adding an icon or padding inside a button.
-  
   */
   font-weight: 500;
   letter-spacing: 0.5px;
@@ -165,8 +164,18 @@ ul{
   /* Softens the edges of the thick bar slightly */
 }
 
-.birdframe{
+#birdframe{
 display: block;
+  margin-top: 30px;
+  margin-left: auto; 
+  margin-right: auto;
+  max-width: 15%;
+  border-radius: 30px;
+  border: 3px solid darkgoldenrod;
+}
+
+#bookframe{
+  display: block;
   margin-top: 30px;
   margin-left: auto; 
   margin-right: auto;
