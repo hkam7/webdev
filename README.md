@@ -53,3 +53,15 @@ gemini told me that
 padding: space inside the text or image and border
 border: the perimeter of the image
 margin: a little space outside the border
+
+visually impaired-
+1. hidden and only works with screen reader
+2. how to do it?
+    - class: make a unique name
+    - position is absolute so that it pulls the default layout of the doc
+    - width and height being 1 px it's still there but very tiny so that the screen reader can read it but it's not humanly visible
+    - padding and borders are 0 bc it removes inner spacing and borders. This also makes sure that the padding and borders are not expaning or shrinking with the browser defaults.
+    - margin of -1px: pulls the edges inside the 1px box and cancels it out so that it becomes "0px" 
+    - overflow hidden makes anything that flows that tiny 1px 🪄 ✨ DISAPPEAR ✨ so we can't see it. It's there but not there yk. 
+    - clip rect and (0,0,0) makes it really go to 0
+    - white space no wrap will make the white spaces 🪄 ✨ DISAPPEAR ✨ (stops it from going to more lines)
