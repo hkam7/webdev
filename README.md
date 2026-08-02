@@ -46,3 +46,9 @@ The links hover portion I took help from gemini ai. I know how it works hover as
  navbarlinks- links of the html under id
  a- the actual links under "href" so that the program can go there.
 :hover- gives the hover affect when user is on the link
+
+I learned this from GWC but I don't remember the entire or exact definition
+gemini told me that
+padding: space inside the text or image and border
+border: the perimeter of the image
+margin: a little space outside the border
