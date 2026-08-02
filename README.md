@@ -37,4 +37,7 @@ and not volunteer work but art, index, and portfolio but I didn't add miscellane
 
 asked gemini for help 
 
-apparently the links are case sensitive so I'm changing that
+apparently the links are case sensitive so I'm changing that and now it works
+
+favicon and other things above later on but now just basics 
+maybe add a subcribe to weekly learnings
