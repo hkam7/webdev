@@ -44,5 +44,5 @@ maybe add a subcribe to weekly learnings
 
 The links hover portion I took help from gemini ai. I know how it works hover aspect:
  navbarlinks- links of the html under id
- a- the actual links "href" 
- :hover- gives the hover affect when user is on the link
+ a- the actual links under "href" so that the program can go there.
+:hover- gives the hover affect when user is on the link
