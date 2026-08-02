@@ -119,7 +119,7 @@ ul{
 
 /* 3. The Links Style */
 #navbarlinks a {
-  color: goldenrod;        
+  color: lightyellow;        
   text-decoration: none;    
   /* Removes the default underline */
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, serif;
@@ -143,17 +143,17 @@ ul{
   other options: linear, ease-in and ease out */
 }
 
-#nav a:hover {
-  color: #c59b27;       
+#navbarlinks a:hover {
+  color: goldenrod;       
   /* Changes text to gold when hovering */
 }
 
 /* BETWEEN GRAD PIC AND ABOUT ME */
 
 .separator {
-  border: none;                 
+  border: navy;                 
   /* Removes the default thin gray border */
-  background-color: #bcb299;   
+  background-color: navajowhite;   
   /* Fills the line with the exact antique gold from your photo frame */
   height: 4px;             
   /* THICKER LINE: Sets a strong, premium thickness */

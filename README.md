@@ -41,3 +41,8 @@ apparently the links are case sensitive so I'm changing that and now it works
 
 favicon and other things above later on but now just basics 
 maybe add a subcribe to weekly learnings
+
+The links hover portion I took help from gemini ai. I know how it works hover aspect:
+ navbarlinks- links of the html under id
+ a- the actual links "href" 
+ :hover- gives the hover affect when user is on the link
