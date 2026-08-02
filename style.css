@@ -97,12 +97,9 @@ ul{
 }
 /* 1. Main Navbar Container */
 .topnavbar {
-  background-color: #0b1d5a;    
-  /* Deep blue background */
-  border-bottom: 8px solid #c59b27; 
-  /* THICKER SEPARATOR: Increased to 8px antique gold */
+  background-color: navy;    
+  border-bottom: 8px solid goldenrod; 
   padding: 20px 0;  
-  /* Increased top and bottom padding for breathing room */
   width: 100%;
 }
 
