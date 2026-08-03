@@ -77,3 +77,22 @@ visually impaired-
     - overflow hidden makes anything that flows that tiny 1px 🪄 ✨ DISAPPEAR ✨ so we can't see it. It's there but not there yk. 
     - clip rect and (0,0,0) makes it really go to 0
     - white space no wrap will make the white spaces 🪄 ✨ DISAPPEAR ✨ (stops it from going to more lines)
+
+###### 8/2/26 and 8/3/26 Error 403
+kept getting 403 error and gpg key error 
+and took help with gemini, and 2 other ppl from orgs I'm in dr.interested and GWC. 
+
+apparently this fixed it 
+
+@hkam7 ➜ /workspaces/webdev (main) $ git config --global gpg.program gpg
+@hkam7 ➜ /workspaces/webdev (main) $ echo "pinentry-mode loopback" >> ~/.gnupg/gpg.conf
+@hkam7 ➜ /workspaces/webdev (main) $ echo "allow-loopback-pinentry" >> ~/.gnupg/gpg-agent.conf
+@hkam7 ➜ /workspaces/webdev (main) $ gpgconf --kill gpg-agent
+@hkam7 ➜ /workspaces/webdev (main) $ export GPG_TTY=$(tty)
+@hkam7 ➜ /workspaces/webdev (main) $ git commit -m "deleted settings.json"
+[main cef3775] deleted settings.json
+ Author: Harshini Kambhampalli <300549945+hkam7@users.noreply.github.com>
+ 1 file changed, 3 deletions(-)
+ delete mode 100644 .vscode/settings.json
+
+ 
