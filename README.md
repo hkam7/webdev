@@ -95,4 +95,4 @@ apparently this fixed it
  1 file changed, 3 deletions(-)
  delete mode 100644 .vscode/settings.json
 
- 
+ but there's another problem- the vercel app still shows error and I need to deploy my website. 
