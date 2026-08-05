@@ -5,14 +5,39 @@ body {
 font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
 }
 
-/* STYLE TEXT */
+/* STYLE HEADER AND FOOTER */
 
+.gold-bar {
+  background: linear-gradient(
+    90deg, 
+    #a67c1e 0%, 
+    #f2e399 25%, 
+    #d1a13b 50%, 
+    #f2e399 75%, 
+    #a67c1e 100%
+  );
+  color: #111111; /* Dark text/icons for clean legibility over gold */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
 h1 {
   color: darkblue;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+/* Gemini help */
+  header.gold-bar {
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+
 footer {
-  background-color: goldenrod;
+  background-color: darkgoldenrod;
   color: navy;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   text-align:center;
@@ -20,6 +45,17 @@ footer {
   margin-top:auto;
   margin-bottom: 5px;
 }
+
+/* Gemini help */
+
+footer.gold-bar {
+  padding: 30px 20px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+
+/* STYLE PARAGRAPHS AND LISTS */
 p {
   color: darkblue;
 }
