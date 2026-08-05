@@ -24,20 +24,10 @@ h1 {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-/* Gemini help */
-  header.gold-bar {
-  padding: 15px 30px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-}
-
 
 footer {
-  background-color: darkgoldenrod;
+  border: 2px solid darkgoldenrod;
+  background-color: navy;
   color: navy;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   text-align:center;
@@ -46,13 +36,6 @@ footer {
   margin-bottom: 5px;
 }
 
-/* Gemini help */
-
-footer.gold-bar {
-  padding: 30px 20px;
-  text-align: center;
-  margin-top: 50px;
-}
 
 
 /* STYLE PARAGRAPHS AND LISTS */
@@ -105,18 +88,18 @@ li{
 }
 
 
-.bio-section p {
+.bio p {
   margin-bottom: 15px;
   line-height: 1.6;
 }
 
 
-.bullet-section {
+.bullets {
   padding-left: 20px;  
   margin-bottom: 25px;
 }
 
-.bullet-section p {
+.bullets p {
   display: list-item;
   list-style-type: disc;
   margin-bottom: 10px; 
