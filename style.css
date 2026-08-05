@@ -16,7 +16,9 @@ footer {
   color: navy;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   text-align:center;
-
+  padding:10px;
+  margin-top:auto;
+  margin-bottom: 5px;
 }
 p {
   color: darkblue;
