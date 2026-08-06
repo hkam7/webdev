@@ -25,10 +25,8 @@ h1 {
 }
 
 
-footer a,
-footer a:visited {
+footer {
   border: 2px solid darkgoldenrod;
-  color: lightyellow;
   background-color: navy;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   text-align:center;
@@ -37,7 +35,20 @@ footer a:visited {
   margin-bottom: 5px;
   font-weight:bold;
 }
-
+footer,
+footer p,
+footer span,
+footer a:hover,
+footer div{
+  color: lightyellow;
+  font-weight: bold;;
+  background: navy;
+}
+footer a,
+footer a:hover,
+footer a:visited {
+    color: goldenrod;
+}
 
 
 /* STYLE PARAGRAPHS AND LISTS */
