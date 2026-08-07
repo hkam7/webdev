@@ -31,8 +31,10 @@ footer {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   text-align:center;
   padding:10px;
-  margin-top:auto;
+  margin-top: 70px;
   margin-bottom: 5px;
+  margin-left: 0px;
+  margin-right: 1px;
   font-weight:bold;
 }
 footer,
@@ -46,7 +48,8 @@ footer div{
 }
 footer a,
 footer a:hover,
-footer a:visited {
+footer a:visited,
+footer a:active {
     color: goldenrod;
 }
 
